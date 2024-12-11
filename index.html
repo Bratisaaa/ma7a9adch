@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>troooooll funy</title>
+    <style>
+        /* تنسيقات الصفحة */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f0f0f0, #000); /* التدرج من الرمادي الفاتح إلى الأسود */
+            color: black;
+            text-align: center;
+        }
+
+        /* العنوان الرئيسي */
+        h1 {
+            font-size: 3rem;
+            margin: 20px 0;
+            font-family: "Graffiti", cursive;
+            color: black;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* النص placeholder */
+        .placeholder-text {
+            margin: 20px;
+            font-size: 1.5rem;
+            font-style: italic;
+            color: #444;
+            transform: rotate(-2deg);
+        }
+
+        /* تنسيق الصور */
+        .image-container {
+            margin: 20px auto;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(255, 255, 255, 0.5);
+        }
+
+      
+        .caption {
+            font-family: "Georgia", serif;
+            font-size: 0.9rem;
+            color: #bbb;
+            font-style: italic;
+        }
+
+        /* زر الرجوع للأعلى */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: black;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .scroll-to-top:hover {
+            transform: scale(1.2);
+        }
+
+        .scroll-to-top:active {
+            background: black;
+        }
+
+        /* النص في أسفل الصفحة */
+        .footer-text {
+            margin-top: 50px;
+            font-size: 1.5rem;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- العنوان الرئيسي -->
+    <h1>ILHAM WLA ZBI</h1>
+
+    <!-- نص placeholder -->
+    <div class="placeholder-text">message rah opo doz 7ayd</div>
+
+    <!-- الصور -->
+    <div class="image-container">
+        <div>
+            <img src="image1.jpg" alt="img1">
+            <p class="caption">ana rah ma7aaaaaaaaa9dch 3la ta chi wa7d</p>
+        </div>
+        <div>
+            <img src="image2.jpg" alt="img2">
+            <p class="caption">ana rah makan9saaaaaaadch ta chi wa7d bhadrati</p>
+        </div>
+        <div>
+            <img src="image3.jpg" alt="img3">
+            <p class="caption">ana rah ma3ndiiiiiiiiiidch mochkil m3a tachi wa7d</p>
+        </div>
+        <div>
+            <img src="image4.jpg" alt="img4">
+            <p class="caption">ana just chill guy wa5d l7ayat bhodo2</p>
+        </div>
+    </div>
+
+    <!-- نص placeholder في أسفل الصفحة -->
+    <div class="footer-text">mhm ana makan3rafch ta chi wa7da bsmit ilham o ma3andi mochkil m3a chi insan o lhamdollah o tawa7d ma3andoch m3aya mochki </div>
+
+    <!-- زر الرجوع للأعلى -->
+    <div class="scroll-to-top" onclick="scrollToTop()"></div>
+
+    <script>
+        // وظيفة الرجوع للأعلى
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
